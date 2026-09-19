@@ -26,6 +26,8 @@ function App() {
     refresh()
   }
 
+  // just for re deplout
+
   const removeItem = (windowId, itemId) => run((a) => a.removeFromPlaylist(windowId, itemId), 'Removed from playlist')
 
   if (!state) {
